@@ -1,0 +1,145 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: url(./backgroung.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+
+.barra {
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+h3:hover {
+    color: #dd6b3e;
+    transform: scale(1.5);
+}
+
+.logo {
+    margin-left: 20px;
+    padding: 10px;
+}
+.imag {
+    background-image: url(https://www.pngkey.com/png/full/69-692296_m-logo-polygon.png);
+    width: 50px;
+    height: 40px;
+    background-size: cover;
+    opacity: 1;
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+    color: white;
+}
+
+.nav li:hover {
+    background-color:#ece0e0;
+    color: #dd6b3e;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Text&family=Lobster&display=swap');
+
+.zona1 {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+.imagen img {
+    height: 90vh;
+}
+
+.imagen:hover {
+    transform: scale(0.5);
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s;
+}
+
+.nombre {
+    color: white;
+}
+
+.nombre p {
+    font-family: 'DM Serif Text', serif;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+
+h2 {
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+h2:hover {
+    transform:skew(25deg);
+    color: #EAAF77;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 2px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+span {
+    color: #a46850;
+}
+
+.web p {
+    width: 300px;
+    height: 100px;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 2s;
+}
+
+.web p {
+    color: white;
+}
+
+.web p:hover {
+    transform: scale(1.5);
+}
+
+button {
+    padding: 10px;
+    margin-left: 13px;
+    font-family: cursive;
+}
+
+button:hover {
+    border-radius: 50%;
+    background-color:#C5C6D9;
+    color:#dd6b3e;
+}

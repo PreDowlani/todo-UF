@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.uf1845{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.App{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(https://wallup.net/wp-content/uploads/2016/01/169770-Beagles-dog-blurred-depth_of_field-animals-748x499.jpg);
+  background-size: cover;
+  
+  
+}
+
+h1{
+  text-decoration: underline;
+}
+
+.cont-form{
+  width: 60vh;
+  height: 40vh;
+  padding: 20px;
+  font-size: 18px;
+  margin-top: 40%;
+}
+
+.cont-form:hover{
+  border: 5px solid white;
+  border-radius: 10%;
+}
+
+
+#formu{
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formu:hover {
+  background-color: #bc946f;
+}
+
+#formu button{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#formu button:hover{
+  background-color: black;
+  color: white;
+}
+
+#formu label{
+  font-size: 20px;
+}
+
+.listas ul{
+  list-style-type: none;
+  border: 2px solid;
+  border-radius: 10%;
+}
+
+.listas ul:hover{
+  background-color: #bc946f;
+}
+
+ h2:hover {
+  background-color: black;
+  color: white;
+}
+
+.listas li:hover{
+  transform: scale(1.5);
+}
+
+h4{
+  color: white;
+}

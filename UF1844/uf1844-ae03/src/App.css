@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App {
+    background-image: url(https://th.bing.com/th/id/R.139b5391e2cbf0aa3734518c2c81080d?rik=%2fj8ZIzKHsqwNDw&pid=ImgRaw&r=0);
+    background-size: cover
+    
+}
+
+
+.zona1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+.zona2 {
+    margin: 20px;
+}
+
+#crear h2{
+    color: whitesmoke;
+}
+
+
+#mascota {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+#mascota li{
+    width: 250px;
+    font-size: 18px;
+}
+
+#mascota li:hover{
+    background-color:#af7d5c ;
+}
+
+#listado ul:hover{
+    background-color: #ebc792;
+    width: 270px;
+}
+
+#listado h2:hover{
+    background-color:black;
+    width: 320px;
+}

@@ -1,0 +1,178 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(187, 184, 184);
+}
+nav {
+    /* position: relative; */
+    background-color: #cac7b2;
+
+}
+
+ul {
+    text-align: end;
+}
+
+ul  {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    padding: 10px;
+}
+li a {
+    color: black;
+}
+li a:hover {
+    color: #c74003;
+    background-color: bisque;
+    padding: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+ul .game {
+    font-family:'Kavoon', cursive;
+    font-size: large;
+    color: black;
+    margin-right: 600px;
+}
+
+ul .game:hover {
+    color: #c74003;
+    background-color: bisque;
+    padding: 10px;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 300px;
+    color: white;
+    margin-left: 450px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,600;0,700;1,600;1,700&family=Permanent+Marker&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,900;1,900&display=swap');
+
+h1 {
+    font-family:'Archivo', sans-serif;
+    font-size: 50px;
+    font-style: italic; 
+}
+
+h1:hover {
+    color:#c74003;
+    background-color: #cac7b2;
+    transform: scale(1.5);
+    padding: 10px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.creed {
+    position: absolute;
+    border: 5px;
+    width: 600px;
+    height:300px;
+    left: 500px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 2s;
+}
+
+.creed:hover {
+    border-radius: 10%;
+    background-color: lightskyblue;
+}
+
+.zona1 {
+    position: absolute;
+    background-image: url(https://th.bing.com/th/id/R.516e12d728d6e9a6439a08258802285d?rik=a9qrazs%2bLM0xSA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-oTQFr3ZKqN4%2fTvkkeTaYjJI%2fAAAAAAAAABQ%2f0YIdqZMPNq8%2fw1200-h630-p-k-no-nu%2fassassins_creed-25h9e.jpg&ehk=oBYdVOlaEPGET4OA6r%2fkpy5vV4BHn%2bq7HMvGrXMrzpE%3d&risl=&pid=ImgRaw&r=0);
+    border: 5px ;
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.cod {
+    position:absolute;
+    border: 3px;
+    top: 450px;
+    margin-left: 50px ;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cod {
+    background-image: url(https://th.bing.com/th/id/OIP.kILid8uWCcQo_fWHzaSjXgHaEK?pid=ImgDet&rs=1);
+    width: 1200px;
+    height: 400px;
+    background-size: cover;
+}
+
+
+
+
+.zona3 {
+    position: absolute;
+    background-image: url(https://th.bing.com/th/id/R.f3eac7a8274a2293fff11de0dcdbe9bb?rik=%2bz%2bED0nXrekAVA&pid=ImgRaw&r=0);
+    border: 5px;
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    top: 900px;
+    margin-left: 50px;
+}
+
+.spider {
+    position: absolute;
+    border: 5px ;
+    width: 500px;
+    height: 300px;
+    left: 650px;
+}
+
+.spider {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.precio {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: #c74003;
+    transform: scale(1.5);
+}
+
+.contacto {
+    position: relative;
+    border: 5px solid green;
+    top: 1200px;
+}

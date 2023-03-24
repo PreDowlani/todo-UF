@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre-Actividad-E01</title>
+  </head>
+  <body>
+    <img src="./imagenes/logo.webp" alt="logo" width="150" height="150" />
+    <header id="inicio"><h1>Vehículos Pepe</h1></header>
+
+    <h2>Venta de vehículos de última generación</h2>
+    <nav>
+      <a href="#fotos">Fotos</a>
+      <a href="#listado">Listado</a>
+      <a href="#altas">Altas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <br />
+    <main>
+      <section id="fotos">
+        <h2>Fotos</h2>
+        <a href="https://www.autobild.es/coches/tesla/model-3">
+          <img
+            src="https://images.unsplash.com/photo-1561580125-028ee3bd62eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="tesla"
+            width="220"
+        /></a>
+        <a href="https://www.muyinteresante.es/actualidad/51991.html">
+          <img
+            src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+            alt="audi"
+            width="250"
+        /></a>
+        <a
+          href="https://www.bmw.com/es/innovation/bmw-i8-un-clasico-del-futuro.html"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1556800572-5bc634842e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092&q=80"
+            alt="bmw1"
+            width="270"
+        /></a>
+      </section>
+      <a href="#inicio">Inicio</a>
+      <br />
+      <section id="listado">
+        <h2>Listado de Vehículos</h2>
+        <ul>
+          <li><strong>Tesla</strong></li>
+          <ul>
+            <li><em> Modelo S</em></li>
+            <li><em>Modelo 3</em></li>
+            <li><em> Modelo X</em></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><strong>Audi</strong></li>
+          <ul>
+            <li><em> Audi Q8 e-tron</em></li>
+            <li><em> Audi SQ8 Sportback e-tron</em></li>
+            <li><em>Audi Q4 e-tron</em></li>
+            <li><em> Audi RS e-tron GT</em></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><strong>BMW</strong></li>
+          <ul>
+            <li><em> BMW I3</em></li>
+            <li><em> BMW I7</em></li>
+            <li><em> BMW I8</em></li>
+            <li><em> BMW IX M60</em></li>
+          </ul>
+        </ul>
+        <ul></ul>
+      </section>
+      <a href="#inicio">Inicio</a>
+      <br />
+      <section id="altas">
+        <form action="">
+          <h2>Formulario de Altas</h2>
+          <br />
+          <div>
+            <label for="marca">Marca</label>
+
+            <select required>
+              <option value=""></option>
+              <option value="tesla">Tesla</option>
+              <option value="audi">Audi</option>
+              <option value="bmw">BMW</option>
+            </select>
+          </div>
+          <br />
+
+          <label for="modelo">Modelo</label>
+          <select>
+            <option value=""></option>
+            <option value="modelo3">Modelo 3</option>
+            <option value="modelos">Modelo S</option>
+            <option value="modelox">Modelo X</option>
+            <option value="bmwi3">BMW I3</option>
+            <option value="bmwi7">BMW I7</option>
+            <option value="bmw8">BMW I8</option>
+            <option value="bmwixm60">BMW IXM60</option>
+            <option value="audiq8">Audi Q8 e-tron</option>
+            <option value="audisq8">Audi SQ8 Sportback e-tron</option>
+            <option value="audiq4">Audi Q4 e-tron</option>
+            <option value="audirs">Audi RS e-tron GT</option>
+          </select>
+          <br />
+          <div>
+            <label for="fechadealta">Fecha de alta</label>
+            <input type="date" name="year" id="year" />
+          </div>
+          <br />
+          <div>
+            <label for="nuevo"
+              >Seleccionar si es nuevo o de segundamano :</label
+            >
+          </div>
+          <br />
+
+          <div>
+            <label for="nuevo">Nuevo</label>
+            <input type="checkbox" name="" id="" />
+            <label for="segundamano">Segundamano</label>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <!-- *HAVIA QUE PONER INPUT BUTTON NO CHECKBOX* -->
+          <br />
+          <div>
+            <label for="precios">Rango de precios (50.000 a 1.000.000 €)</label>
+            <br />
+            <input
+              type="range"
+              name="precios"
+              id="rango"
+              min="50.000"
+              max="1.000.000"
+              required
+            />
+          </div>
+          <br />
+
+          <a href="#inicio">Inicio</a>
+          <div></div>
+        </form>
+      </section>
+    </main>
+    <br />
+    <footer id="contacto">
+      <h2>Contacto</h2>
+      <p>Copyright Pepe Pérez - Calle El Barajito, 14</p>
+      <p>39123, Isla de San Bordón</p>
+      <br />
+      <a href="mailto:pepeperez@gmail.com">Email</a>
+      <br />
+      <a href="tel:+34625897456">Móvil</a>
+    </footer>
+  </body>
+  <!-- FALTO PONER BOTON ENVIAR/SUBMIT -->
+</html>

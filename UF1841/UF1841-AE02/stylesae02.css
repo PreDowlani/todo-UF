@@ -1,0 +1,202 @@
+/* There is nothing more romantic than delicious food.
+Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together. No matter what culture, everywhere around the world, people eat together.
+#FEAFA3, #589CCC, #FB92B3&lt * rgb(254,175,163); rgb(88,156,204)  rgb(251,146,179)*/
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color:rgb(254,215,209);
+}
+
+.navegacion {
+   position: absolute;
+   left: 75%;
+}
+
+.navegacion a {
+    color:rgb(88,156,204) ;
+}
+.logo {
+    position: relative;
+    top: 50px;
+}
+
+
+.head {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.head {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ken {
+    position: absolute;
+    top: 31%;
+    left: 35%;
+}
+.ken:hover {
+    color:rgb(88,156,204) ;
+
+}
+
+.zona2 {
+    background-color: rgb(254,191,181);
+}
+.guide {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.guide:hover {
+    color:inherit
+}
+
+.guide button {
+    background-color: black;
+    color: white;
+}
+
+.guide button:hover {
+    color:rgb(88,156,204) ;
+}
+
+.img01 {
+    
+    width: 100%;
+    height: 50%;
+
+}
+.img01 img {
+    position: relative;
+    top: 130px;
+    left: 250px;
+
+}
+
+.samosa {
+    background-image: url(https://th.bing.com/th/id/OIP.5RcbLVkxiptJp1FKUFLmHAHaFj?pid=ImgDet&rs=1);
+    width: 400px;
+    height: 300px;
+    border: 5px;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+h3 {
+    color: black;
+    text-decoration: underline;
+}
+
+.saminfo {
+    border: 5px;
+    padding: 10px;
+    width: 600px;
+    height: auto;
+    left: 600px;
+    bottom: 140px;
+    position: relative;
+    font-size:18px;
+    font-family: cursive;
+    color:rgb(51, 151, 223);
+}
+
+
+
+.receta a {
+    color: white;
+}
+.receta a:hover {
+    color: rgb(251,146,179);
+
+}
+
+.receta button {
+    background-color: black;
+    color: white;
+}
+
+.receta button:hover {
+    color: rgb(88,156,204);
+
+}
+.zona3 {
+    background-color:rgb(254,175,163) ;
+}
+
+.desert {
+    background-image: url(https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661887113/indian-food/indian-food-1120x732.jpg);
+    width: 500px;;
+    height: 300px;;
+    border: 5px;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    background-size:contain;
+}
+
+.food {
+    border: 5px;
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    left: 700px;
+    bottom: 250px;
+    position: relative;
+    font-size:18px;
+    font-family: cursive;
+    color:rgb(25, 144, 230);
+}
+
+.food  button {
+    background-color: black;
+    color: white;
+}
+.food button:hover {
+    color:rgb(51, 151, 223);
+}
+
+.zona4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.zona4 {
+    background-color:rgb(254,191,181);
+}
+
+.zona5 a {
+    
+    color: black;
+}
+
+.zona5 {
+    position: relative;
+    border: 5px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    left: 70%;
+    top: 10px;
+    
+}
+    
+.zona6 {
+    position: relative;
+    border: 5px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    bottom: 110px;
+    left: 200px;
+}
+

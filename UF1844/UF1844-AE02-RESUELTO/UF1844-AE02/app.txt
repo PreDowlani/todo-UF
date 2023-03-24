@@ -1,0 +1,44 @@
+const llamadas = [
+	{
+		id: 1,
+		nombre: 'Camila Cabello',
+		problema: 'streaming',
+		ciclo: ['recibido', 'pasado a', 'en proceso', 'solucionado', 'cerrado'],
+		resuelto: true,
+	},
+	{
+		id: 2,
+		nombre: 'Ariana Grande',
+		problema: 'velocidad',
+		ciclo: ['recibido', 'pasado a'],
+		resuelto: false,
+	},
+	{
+		id: 3,
+		nombre: 'Lola Flores',
+		problema: 'velocidad',
+		ciclo: ['recibido', 'pasado a', 'en proceso', 'solucionado'],
+		resuelto: false,
+	},
+	{
+		id: 4,
+		nombre: 'Estrellita Castro',
+		problema: 'desconexiones',
+		ciclo: ['recibido'],
+		resuelto: false,
+	},
+	{
+		id: 5,
+		nombre: 'Adele',
+		problema: 'velocidad',
+		ciclo: ['recibido'],
+		resuelto: false,
+	},
+	{
+		id: 6,
+		nombre: 'La Chicha del Callejón',
+		problema: 'desconexiones',
+		ciclo: ['recibido', 'pasado a', 'en proceso', 'solucionado', 'cerrado'],
+		resuelto: true,
+	},
+];
