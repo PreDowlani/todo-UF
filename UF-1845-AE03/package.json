@@ -1,0 +1,20 @@
+{
+  "name": "uf-1845-ae03",
+  "version": "1.0.0",
+  "description": "UF-1845-AE03",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Prashanth Dowlani",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "helmet": "^6.0.1",
+    "joi": "^17.9.1",
+    "morgan": "^1.10.0"
+  }
+}

@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 10px;
+  background-color: black;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.activo {
+  color: chocolate;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+}
+
+.noactivo {
+  color: white;
+  padding:5px;
+}
+
+.home {
+  background-image: url(https://www.gsfbroker.com/wp-content/uploads/2020/11/fraude-online2.jpg);
+  background-size:cover;
+  background-position: center;
+  height:90vh;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #4b75a8;
+}
+
+.home h1{
+  background-color:black;
+}
+
+
+
+.video{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#3c5980;
+}
+
+.about {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #afd9f0;
+  height: 90vh;
+
+}
+.about h1,h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tecnicas{
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 23%;
+  background-color: #79b3d3;
+}
+
+.tecnicas ol{
+  list-style-type: none;
+  padding: 20px;
+  font-style: italic;
+}
+
+.tecnicas h3{
+  text-decoration: underline;
+}
+
+.app-contacto{
+  text-align: center;
+  font-size: 30px;
+  background-color: #afd9f0;
+  height: 100vh;
+  margin: 10px;
+}
+
+.form{
+  border-style: dotted;
+  margin: 5%;
+  padding: 10px;
+  background-color:#79b3d3;
+}
+
+.form label{
+  padding: 5px;
+}
+
